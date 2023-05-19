@@ -1,0 +1,55 @@
+/* Slider */
+.container-fluid {  padding: 0;
+}
+
+
+
+#mainSlider .carousel-caption {  
+}
+
+.carousel-inner .carousel-caption h5 { font-size: 2rem; font-weight: 700; color: 
+}
+
+.carousel-inner .carousel-caption p {  font-size: 1.4rem;  font-weight: 600;  color: #000; margin-bottom: -1%;
+}
+
+.carousel-control-prev { margin-top: 10%;
+ }
+.carousel-control-next { margin-top: 10%; 
+}
+
+
+/* MEDIAS */
+/* celulares até 576 */
+@media (max-width: 575.98px) {
+	
+	}
+
+/* celulates entre 576 ate 767.98 */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.carousel-inner .carousel-caption h5 { font-size: 1.8rem; }
+	.carousel-inner .carousel-caption p { font-size: 1.2rem; }
+	}
+
+/* tablets de 768 até 992 */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.carousel-inner .carousel-caption h5 { font-size: 1.8rem; padding: 2%;}
+	.carousel-inner .carousel-caption p { font-size: 1.2rem; }
+	}
+
+/* descktops 992 para 1200 */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	.carousel-inner .carousel-caption h5 { font-size: 2.2rem; margin-top: -20%; padding: 3%; }
+	.carousel-inner .carousel-caption p { font-size: 1.4rem; }
+	}
+	
+/* acima de 1200 */
+@media (min-width: 1200px) and (max-width: 1600px) { 
+	.carousel-inner .carousel-caption h5 { font-size: 2.8rem; padding: 5%;}
+	.carousel-inner .carousel-caption p { font-size: 1.8rem; margin-bottom: 1%; }
+
+	}
+
+
+
+

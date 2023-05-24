@@ -35,14 +35,50 @@
 
 
 /* mudando distancia do bannher das setas e indiquetos */
-@media (min-width: 400px) and (max-width: 429.99px) { 	.carousel-control-next { margin-right: 180px; }}
-@media (min-width: 430px) and (max-width: 459.99px) { 	.carousel-control-next { margin-right: 150px; }}
-@media (min-width: 460px) and (max-width: 479.99px) { 	.carousel-control-next { margin-right: 130px; }}
-@media (min-width:480px) and (max-width: 499px) { 	.carousel-control-next { margin-right: 120px; }}
-@media (min-width: 500px) and (max-width: 515px) { 	.carousel-control-next { margin-right: 110px; }}
-@media (min-width: 516px) and (max-width: 530px) { 	.carousel-control-next { margin-right: 90px; }}
-@media (min-width: 531px) and (max-width: 540px) { 	.carousel-control-next { margin-right: 75px; }}
-@media (min-width: 541px) and (max-width: 575.97px) { 	.carousel-control-next { margin-right: 50px; }}
+@media (min-width: 310px) and (max-width: 339.99px) { 	.carousel-control-next { margin-right: 270px; }
+.carousel-inner {margin-top: -30px;}
+.carousel .carousel-inner img {margin-top: 0px; margin-left: -80px;}
+}
+@media (min-width: 340px) and (max-width: 369.99px) { 	.carousel-control-next { margin-right: 240px; }
+.carousel-inner {margin-top: -30px;}
+.carousel .carousel-inner img {margin-top: 0px; margin-left: -70px;}
+}
+@media (min-width: 370px) and (max-width: 399.99px) { 	.carousel-control-next { margin-right: 220px; }
+.carousel-inner {margin-top: -30px;}
+.carousel .carousel-inner img {margin-top: 0px; margin-left: -60px;}
+}
+@media (min-width: 400px) and (max-width: 429.99px) { 	.carousel-control-next { margin-right: 190px; }
+.carousel-inner {margin-top: -30px;}
+.carousel .carousel-inner img {margin-top: 0px; margin-left: -50px;}
+}
+@media (min-width: 430px) and (max-width: 459.99px) { 	.carousel-control-next { margin-right: 160px; }
+.carousel-inner {margin-top: -30px;}
+.carousel .carousel-inner img {margin-top: 0px; margin-left: -30px;}
+}
+@media (min-width: 460px) and (max-width: 479.99px) { 	.carousel-control-next { margin-right:130px; }
+.carousel-inner {margin-top: -30px;}
+.carousel .carousel-inner img {margin-top: 0px; margin-left: -10px;}
+}
+@media (min-width:480px) and (max-width: 499px) { 	.carousel-control-next { margin-right: 120px; }
+.carousel-inner {margin-top: 0px;}
+.carousel .carousel-inner img {margin-top: 0px; }
+}
+@media (min-width: 500px) and (max-width: 515px) { 	.carousel-control-next { margin-right: 110px; }
+.carousel-inner {margin-top: 0px;}
+.carousel .carousel-inner img {margin-top: 0px; }
+}
+@media (min-width: 516px) and (max-width: 530px) { 	.carousel-control-next { margin-right: 90px; }
+.carousel-inner {margin-top: 0px;}
+.carousel .carousel-inner img {margin-top: 0px; }
+}
+@media (min-width: 531px) and (max-width: 540px) { 	.carousel-control-next { margin-right: 75px; }
+.carousel-inner {margin-top: 0px;}
+.carousel .carousel-inner img {margin-top: 0px; }
+}
+@media (min-width: 541px) and (max-width: 575.97px) { 	.carousel-control-next { margin-right: 50px; }
+.carousel-inner {margin-top: 0px;}
+.carousel .carousel-inner img {margin-top: 0px; }
+}
 
 
 

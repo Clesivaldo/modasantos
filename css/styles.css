@@ -1,16 +1,18 @@
 /* Slider */
 .container-fluid {  padding: 0;
+	
 }
-
-
+.logo_container a {margin-left: 0px;}
 
 #mainSlider .carousel-caption {  
 }
 
+.carousel .carousel-inner img{ margin-top: -120px; }
+
 .carousel-inner .carousel-caption h5 { font-size: 2rem; font-weight: 700; color: 
 }
 
-.carousel-inner .carousel-caption p {  font-size: 1.4rem;  font-weight: 600;  color: #000; margin-bottom: -1%;
+.carousel-inner .carousel-caption p {  font-size: 1.4rem;  font-weight: 600;  color: #000; margin-bottom: -10%;
 }
 
 .carousel-control-prev { margin-top: 10%;
@@ -18,35 +20,84 @@
 .carousel-control-next { margin-top: 10%; 
 }
 
+/* baixando o banner */
+.banner {margin-top: 100px;}
+
+/* cor e tamanhos dos produtos */
+.product {width: 95%;  background-color: #f2f2f2; margin-left: 5px;}
+/* diminuindo o adicionar ao carrinho */
+.add_to_cart_button { width: 95%; margin-left: 5px;}
+/* aumentando tamando do fundo imagem carousel islaide produtos */
+.product_slider_item .product { height: 373px;  }
+
+/* mais vendidos */
+
+
+
+/* mudando distancia do bannher das setas e indiquetos */
+@media (min-width: 400px) and (max-width: 429.99px) { 	.carousel-control-next { margin-right: 180px; }}
+@media (min-width: 430px) and (max-width: 459.99px) { 	.carousel-control-next { margin-right: 150px; }}
+@media (min-width: 460px) and (max-width: 479.99px) { 	.carousel-control-next { margin-right: 130px; }}
+@media (min-width:480px) and (max-width: 499px) { 	.carousel-control-next { margin-right: 120px; }}
+@media (min-width: 500px) and (max-width: 515px) { 	.carousel-control-next { margin-right: 110px; }}
+@media (min-width: 516px) and (max-width: 530px) { 	.carousel-control-next { margin-right: 90px; }}
+@media (min-width: 531px) and (max-width: 540px) { 	.carousel-control-next { margin-right: 75px; }}
+@media (min-width: 541px) and (max-width: 575.97px) { 	.carousel-control-next { margin-right: 50px; }}
+
+
+
 
 /* MEDIAS */
 /* celulares até 576 */
 @media (max-width: 575.98px) {
-	
-	}
+	.carousel .carousel-inner img{  height: 450px;  }
+	.carousel { margin-top: 100px; width: 700px; margin-left: -100px; }
+	.carousel-indicators{ display: none;}
+	.carousel-control-prev { margin-top: 0%;	margin-left: 90px; }
+	.carousel-control-next { margin-top: 0%;   }
+	.carousel-inner .carousel-caption h5 { font-size: 1.4rem; }
+	.carousel-inner .carousel-caption p { font-size: 1rem; }
 
+}
 /* celulates entre 576 ate 767.98 */
 @media (min-width: 576px) and (max-width: 767.98px) { 
-	.carousel-inner .carousel-caption h5 { font-size: 1.8rem; }
-	.carousel-inner .carousel-caption p { font-size: 1.2rem; }
+	.carousel-inner .carousel-caption h5 { font-size: 1.6rem; }
+	.carousel-inner .carousel-caption p { font-size: 1rem; }
+	.carousel { margin-top:100px; }
+	.carousel .carousel-inner img { margin-top: 0px; height: 440px;}
+	.carousel-control-prev { margin-top: 0%;}
+   .carousel-control-next { margin-top: 0%;   }
 	}
 
 /* tablets de 768 até 992 */
 @media (min-width: 768px) and (max-width: 991.98px) { 
-	.carousel-inner .carousel-caption h5 { font-size: 1.8rem; padding: 2%;}
+	.carousel-inner .carousel-caption h5 {margin-top: -250px; font-size: 1.8rem; padding: 6%;}
 	.carousel-inner .carousel-caption p { font-size: 1.2rem; }
+	.carousel { margin-top: 50px; }
+	.carousel .carousel-inner img { margin-top: 50px; height: 480px;}
+
+	
+	
+
 	}
 
 /* descktops 992 para 1200 */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-	.carousel-inner .carousel-caption h5 { font-size: 2.2rem; margin-top: -20%; padding: 3%; }
-	.carousel-inner .carousel-caption p { font-size: 1.4rem; }
+	.carousel-inner .carousel-caption h5 {margin-top: 500px; font-size: 2.2rem; margin-top: -20%; padding: 3%; }
+	.carousel-inner .carousel-caption p { font-size: 1.4rem; margin-bottom: 10%;}
+	.carousel { margin-top: 150px; }
+	.carousel-control-prev { margin-top: 0%;}
+   .carousel-control-next { margin-top: 0%;   }
+	
 	}
 	
 /* acima de 1200 */
 @media (min-width: 1200px) and (max-width: 1600px) { 
-	.carousel-inner .carousel-caption h5 { font-size: 2.8rem; padding: 5%;}
+	.carousel-inner .carousel-caption h5 {margin-top: -380px; font-size: 2.8rem; padding: 5%;}
 	.carousel-inner .carousel-caption p { font-size: 1.8rem; margin-bottom: 1%; }
+	.carousel {margin-top: 150px; height:600px; }
+	.carousel-control-prev { margin-top: 0%;}
+   .carousel-control-next { margin-top: 0%;   }
 
 	}
 

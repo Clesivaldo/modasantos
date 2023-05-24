@@ -24,7 +24,10 @@
 
 @media only screen and (max-width: 1600px)
 {
-	
+	.product
+	{
+			background-color: #f2f2f2; border: 0; width: 96%; margin-left: 3.5px;
+	}
 }
 
 /************
@@ -66,7 +69,7 @@
 	}
 	.product
 	{
-		height: 320px;
+		height: 320px;	
 	}
 }
 
@@ -103,6 +106,8 @@
 	{
 		margin-top: 100px;
 	}
+
+	.sidebar_section {display: none;}
 	.sidebar
 	{
 		float: none;

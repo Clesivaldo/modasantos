@@ -38,26 +38,38 @@
 @media (min-width: 310px) and (max-width: 339.99px) { 	.carousel-control-next { margin-right: 270px; }
 .carousel-inner {margin-top: -30px;}
 .carousel .carousel-inner img {margin-top: 0px; margin-left: -80px;}
+.product {margin-left: 0px; margin-bottom: -20px; width: 100%;}
+.add_to_cart_button { margin-left: 0;   width: 100%; margin-bottom: 30px; }
 }
 @media (min-width: 340px) and (max-width: 369.99px) { 	.carousel-control-next { margin-right: 240px; }
 .carousel-inner {margin-top: -30px;}
 .carousel .carousel-inner img {margin-top: 0px; margin-left: -70px;}
+.product {margin-left: 0px; margin-bottom: -20px; width: 100%;}
+.add_to_cart_button { margin-left: 0;   width: 100%; margin-bottom: 30px; }
 }
-@media (min-width: 370px) and (max-width: 399.99px) { 	.carousel-control-next { margin-right: 220px; }
+@media (min-width: 370px) and (max-width: 399.99px) { 	.carousel-control-next { margin-right: 210px; }
 .carousel-inner {margin-top: -30px;}
 .carousel .carousel-inner img {margin-top: 0px; margin-left: -60px;}
+.product {margin-left: 0px; margin-bottom: -20px; width: 100%;}
+.add_to_cart_button { margin-left: 0;   width: 100%; margin-bottom: 30px; }
 }
 @media (min-width: 400px) and (max-width: 429.99px) { 	.carousel-control-next { margin-right: 190px; }
 .carousel-inner {margin-top: -30px;}
 .carousel .carousel-inner img {margin-top: 0px; margin-left: -50px;}
+.product {margin-left: 0px; margin-bottom: -20px; width: 100%;}
+.add_to_cart_button { margin-left: 0;   width: 100%; margin-bottom: 30px; }
 }
 @media (min-width: 430px) and (max-width: 459.99px) { 	.carousel-control-next { margin-right: 160px; }
 .carousel-inner {margin-top: -30px;}
 .carousel .carousel-inner img {margin-top: 0px; margin-left: -30px;}
+.product {margin-left: 0px; margin-bottom: -20px; width: 100%;}
+.add_to_cart_button { margin-left: 0;   width: 100%; margin-bottom: 30px; }
 }
 @media (min-width: 460px) and (max-width: 479.99px) { 	.carousel-control-next { margin-right:130px; }
 .carousel-inner {margin-top: -30px;}
 .carousel .carousel-inner img {margin-top: 0px; margin-left: -10px;}
+.product {margin-left: 0px; margin-bottom: -20px; width: 100%;}
+.add_to_cart_button { margin-left: 0;   width: 100%; margin-bottom: 30px; }
 }
 @media (min-width:480px) and (max-width: 499px) { 	.carousel-control-next { margin-right: 120px; }
 .carousel-inner {margin-top: 0px;}
@@ -103,6 +115,7 @@
 	.carousel .carousel-inner img { margin-top: 0px; height: 440px;}
 	.carousel-control-prev { margin-top: 0%;}
    .carousel-control-next { margin-top: 0%;   }
+   .product {margin-left: 3.5px;  }
 	}
 
 /* tablets de 768 até 992 */
@@ -112,9 +125,7 @@
 	.carousel { margin-top: 50px; }
 	.carousel .carousel-inner img { margin-top: 50px; height: 480px;}
 
-	
-	
-
+	.product {margin-left: 4px;  }
 	}
 
 /* descktops 992 para 1200 */
@@ -124,6 +135,8 @@
 	.carousel { margin-top: 150px; }
 	.carousel-control-prev { margin-top: 0%;}
    .carousel-control-next { margin-top: 0%;   }
+
+   .product {margin-left: 4.5px;  }
 	
 	}
 	
